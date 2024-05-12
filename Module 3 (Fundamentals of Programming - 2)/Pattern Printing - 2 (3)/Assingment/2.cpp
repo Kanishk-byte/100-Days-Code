@@ -6,12 +6,11 @@
 
 using namespace std;
 
-// * Ques : Number Triangle Flipped
-//         1
-//       1 2
-//     1 2 3
-//   1 2 3 4
-// 1 2 3 4 5
+// * Ques : Print the following pattern
+//       A
+//     A B C
+//   A B C D E
+// A B C D E F G
 
 int main()
 {
@@ -22,16 +21,16 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        // * For Spaces
+        // For Spaces
         for (int j = 1; j <= n - i; j++)
         {
             cout << " " << " ";
         }
 
-        // * For Numbers
-        for (int k = 1; k <= i; k++)
+        // For Alphabets
+        for (int k = 1; k <= 2 * i - 1; k++)
         {
-            cout << k << " ";
+            cout << (char)(k + 64) << " ";
         }
         cout << endl;
     }
