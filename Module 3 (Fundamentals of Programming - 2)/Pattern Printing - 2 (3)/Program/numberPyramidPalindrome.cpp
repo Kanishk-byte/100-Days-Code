@@ -27,7 +27,7 @@ int main()
             cout << " " << " ";
         }
 
-        // For Stars
+        // For Numbers
         for (int k = 1; k <= i; k++)
         {
             cout << k << " ";
