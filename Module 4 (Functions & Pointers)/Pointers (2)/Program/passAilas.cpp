@@ -10,25 +10,25 @@ using namespace std;
 
 // * Pass by Ailas * //
 
-void swap(int &a, int &b)
+void swap(int &x, int &y)
 {
-    int temp = a;
-    a = b;
-    b = temp;
+    int temp = x;
+    x = y;
+    y = temp;
 }
 
 int main()
 {
-    int a;
+    int x;
     cout << "Enter 1st num : ";
-    cin >> a;
+    cin >> x;
 
-    int b;
+    int y;
     cout << "Enter 2nd num : ";
-    cin >> b;
+    cin >> y;
 
-    swap(a, b);
-    cout << a << " " << b;
+    swap(x, y);
+    cout << x << " " << y;
 
     return 0;
 }

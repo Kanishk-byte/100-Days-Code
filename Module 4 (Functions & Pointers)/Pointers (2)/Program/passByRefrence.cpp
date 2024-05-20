@@ -28,11 +28,14 @@ int main()
     cout << "Enter 2nd num : ";
     cin >> b;
 
+    cout << "Numbers before swapping : " << a << " " << b << endl;
+
     int *x = &a;
     int *y = &b;
 
     swap(x, y);
-    cout << a << " " << b;
+    cout << "Numbers after swapping : " << a << " " << b << endl;
+
 
     return 0;
 }
