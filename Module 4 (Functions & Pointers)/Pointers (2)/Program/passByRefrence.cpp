@@ -20,6 +20,9 @@ void swap(int *x, int *y)
 
 int main()
 {
+
+    // Taking input from user
+
     int a;
     cout << "Enter 1st num : ";
     cin >> a;

@@ -18,7 +18,7 @@ int main()
     cout << "Address of x : " << &x << endl;
     cout << "Value of ptr : " << ptr << endl;
 
-    // * Address of ptr is diffrent ->
+    // * Address of pointer is diffrent ->
     cout << "Address of ptr : " << &ptr << endl;
 
     // * (*ptr) store value of x ->
