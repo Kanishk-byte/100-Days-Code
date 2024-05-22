@@ -7,10 +7,10 @@
 using namespace std;
 
 // * Ques : Print the given pattern.
-//       A
-//     A B
-//   A B C
-// A B C D
+//        A
+//      A B
+//    A B C
+//  A B C D
 
 int main()
 {
