@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : Given an array, predict if the array contains duplicates or not.
+// * Ques : WAP to find the smallest missing positive element in the sorted Array that contains only positive elements.
 
 int main()
 {
@@ -26,30 +26,23 @@ int main()
         cin >> arr[i];
     }
 
-    // Checkmark
-    bool flag = false;
+    // Missing Element
 
+    bool flag = false; // No missing element
     for (int i = 0; i < size; i++)
     {
-        for (int j = i + 1; j < size; j++)
+        if (arr[i] != i + 1)
         {
-            if (arr[i] == arr[j])
-            {
-                flag = true;
-                break;
-            }
-        }
-        if (flag == true)
-        {
+            flag = true;
+            cout << "Smallest positive missing element : " << i + 1;
             break;
         }
     }
 
-    // Conditions
-    if (flag == true)
-        cout << "duplicate";
-    else
-        cout << "no";
+    if (flag == false)
+    {
+        cout << "There was no missing element";
+    }
 
     return 0;
 }
