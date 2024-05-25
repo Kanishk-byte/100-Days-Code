@@ -13,7 +13,7 @@ int main()
 
     // Size of Array
     int size;
-    cout << "Enter siz eof array : ";
+    cout << "Enter size of array : ";
     cin >> size;
 
     // Array
