@@ -20,7 +20,7 @@ int main()
 
     // * Input
     cout << "Enter elements of Array : " << endl;
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i <= size - 1; i++)
     {
         cin >> arr[i];
     }
