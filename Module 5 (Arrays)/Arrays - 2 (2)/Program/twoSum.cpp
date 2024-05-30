@@ -32,7 +32,7 @@ int main()
 
     for (int i = 0; i < size - 1; i++)
     {
-        for (int j = i + 17; j < size; j++)
+        for (int j = i + 1; j < size; j++)
         {
             if (v[i] + v[j] == x)
             {

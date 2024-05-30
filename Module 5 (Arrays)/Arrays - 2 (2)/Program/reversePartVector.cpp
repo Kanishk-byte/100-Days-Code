@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : WAP to do Reverse of a vector.
+// * Ques : Reverse the specific part of vector 
 
 void display(vector<int> &a)
 {
@@ -15,6 +15,19 @@ void display(vector<int> &a)
         cout << a[i] << " ";
     }
     cout << endl;
+}
+
+void reversePart(int i, int j, vector<int> &v)
+{
+    while (i <= j)
+    {
+        int temp = v[i];
+        v[i] = v[j];
+        v[j] = temp;
+        i++;
+        j--;
+    }
+    return;
 }
 
 int main()
@@ -35,15 +48,17 @@ int main()
         v.push_back(elem);
     }
 
-    for (int i = size - 1; i >= 0; i--)
-    {
-        cout << v[i] << " ";
-    }
+    int i;
+    cout << "Value of i : ";
+    cin >> i;
 
-    /*
-    * Reverse Function
-    reverse(v.begin(), v.end());
-    */
+    int j;
+    cout << "Value of j : ";
+    cin >> j;
+
+    reversePart(i, j, v);
+
+    display(v);
 
     return 0;
 }
