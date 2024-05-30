@@ -39,7 +39,7 @@ int main()
     cout << endl;
 
     cout << "Size of Vector : " << v.size() << endl;
-    cout << "Capacity of Vector : " << v.capacity() << endl; 
+    cout << "Capacity of Vector : " << v.capacity() << endl;  
 
     return 0;
 }
