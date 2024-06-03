@@ -47,9 +47,9 @@ int main()
 
     // Conditions
     if (flag == true)
-        cout << "duplicate";
+        cout << "Duplicate";
     else
-        cout << "no";
+        cout << "No";
 
     return 0;
 }
