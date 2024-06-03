@@ -11,11 +11,11 @@ using namespace std;
 int main()
 {
 
+    vector<int> v;
+
     int x;
     cout << "Enter target : ";
     cin >> x;
-
-    vector<int> v;
 
     int size = v.size();
     cout << "Enter size : ";
