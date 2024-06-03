@@ -6,50 +6,39 @@
 
 using namespace std;
 
-// * Ques : Given an array, predict if the array contains duplicates or not.
+// Function to find the unique number in an array where all other elements are repeated twice
+int findUnique(int arr[], int size)
+{
+    int unique = 0;
+    for (int i = 0; i < size; i++)
+    {
+        unique ^= arr[i]; // XOR operation
+    }
+    return unique;
+}
 
 int main()
 {
-
-    // Size of the array
+    // Size of array
     int size;
-    cout << "Enter size of array : ";
+    cout << "Enter size of array: ";
     cin >> size;
 
     // Array
     int arr[size];
 
     // Input
-    cout << "Enter elements of array : " << endl;
+    cout << "Enter elements of array: " << endl;
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
     }
 
-    // Checkmark
-    bool flag = false;
+    // Find the unique number
+    int uniqueNumber = findUnique(arr, size);
 
-    for (int i = 0; i < size; i++)
-    {
-        for (int j = i + 1; j < size; j++)
-        {
-            if (arr[i] == arr[j])
-            {
-                flag = true;
-                break;
-            }
-        }
-        if (flag == true)
-        {
-            break;
-        }
-    }
-
-    // Conditions
-    if (flag == true)
-        cout << "Duplicate";
-    else
-        cout << "No";
+    // Output the unique number
+    cout << "The unique number is: " << uniqueNumber << endl;
 
     return 0;
 }
