@@ -44,15 +44,15 @@ int main()
     cout << "Even sum : " << sumEven << endl;
     cout << "Odd sum : " << sumOdd << endl;
 
-    int diffrence = (sumEven - sumOdd);
+    int difference = (sumEven - sumOdd);
 
-    if (diffrence >= 0)
+    if (difference >= 0)
     {
-        cout << "Diffrence is : " << diffrence;
+        cout << "Difference is : " << difference;
     }
     else
     {
-        cout << "Diffrence is : " << -(diffrence);
+        cout << "Difference is : " << -(difference);
     }
 
     return 0;
