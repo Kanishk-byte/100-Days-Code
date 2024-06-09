@@ -30,7 +30,7 @@ void sort01(vector<int> &v)
             v[i] = 0;
 
         /*
-        else if (i < (noo + noo))
+        else if (i < (noz + noo))
             v[i] = Constant;
         */
 
