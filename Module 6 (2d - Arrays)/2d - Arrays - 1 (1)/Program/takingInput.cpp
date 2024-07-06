@@ -33,9 +33,9 @@ int main()
     cout << endl;
 
     // * Print
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < m; i++) // i is row
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < n; j++) // j is column
         {
             cout << arr[i][j] << " ";
         }
