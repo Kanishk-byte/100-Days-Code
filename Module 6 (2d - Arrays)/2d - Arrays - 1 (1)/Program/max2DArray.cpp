@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : WAP to find a largest element in a given 2D - Array.
+// * Ques : WAP to find the largest element of a given 2D - Array of integers.
 
 int main()
 {
