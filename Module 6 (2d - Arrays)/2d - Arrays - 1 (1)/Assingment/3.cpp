@@ -19,9 +19,9 @@ int main()
         cout << "Enter no. of Column's : ";
         cin >> n;
 
-        cout << "Enter element's of 1st Matrix : " << endl;
-
         int arr[m][n];
+
+        cout << "Enter element's of Matrix : " << endl;
         // Taking Input
         for (int i = 0; i < m; i++)
         {
