@@ -15,21 +15,21 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int lastdigit = 0;
-    int reverse = 0;
-    int temp = n;
+    int _lastdigit = 0;
+    int _reverse = 0;
+    int _temp = n;
 
     while (n > 0)
     {
-        reverse = reverse * 10;
-        lastdigit = n % 10;
-        reverse = reverse + lastdigit;
+        _reverse = _reverse * 10;
+        _lastdigit = n % 10;
+        _reverse = _reverse + _lastdigit;
         n = n / 10;
     }
 
-    cout << "Reverse is : " << reverse<<endl;
+    cout << "Reverse is : " << _reverse <<endl;
 
-    cout<<"Result is : "<<(temp + reverse);
+    cout << "Result is : "<< (_temp + _reverse);
 
     return 0;
 }

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : Check weather a number is comp[osite or not.
+// * Ques : Check weather a number is composite or not.
 // * Composite number -> A number which is has 1 or more than 1 factor other than 1 or number itself.
 
 int main()

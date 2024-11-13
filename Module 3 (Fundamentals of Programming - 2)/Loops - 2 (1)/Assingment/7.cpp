@@ -15,11 +15,11 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int fact = 1;
+    int _fact = 1;
     for (int i = 1; i <= n; i++)
     {
-        fact = fact * i;
-        cout << fact << endl;
+        _fact = _fact * i;
+        cout << _fact << endl;
     }
 
     return 0;

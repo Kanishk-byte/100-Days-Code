@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : Print the sum of Alternate Series
+// * Ques : Print the sum of Alternate Series.
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int sum = 0;
+    int _sum = 0;
 
     // * Using Loops
     /*
@@ -29,11 +29,11 @@ int main()
     */
 
     if (n % 2 == 0)
-        sum = (-n / 2);
+        _sum = (-n / 2);
     else
-        sum = (-n / 2) + n;
+        _sum = (-n / 2) + n;
 
-    cout << sum;
+    cout << _sum;
 
     return 0;
 }

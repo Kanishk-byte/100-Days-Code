@@ -15,7 +15,7 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int count = 0;
+    int _count = 0;
     bool flag = true;
 
     if (n == 0)
@@ -26,16 +26,16 @@ int main()
     while (n > 0)
     {
         n /= 10;
-        count++;
+        _count++;
     }
 
     if (flag == false)
     {
-        cout << "No of digits : " << 5;
+        cout << "No of digits : " << 1;
     }
     else
     {
-        cout << "No of Digits : " << count;
+        cout << "No of Digits : " << _count;
     }
 
     return 0;

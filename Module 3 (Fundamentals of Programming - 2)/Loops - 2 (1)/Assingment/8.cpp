@@ -15,14 +15,14 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int a = 1, b = 1, sum = 0;
+    int a = 1, b = 1, _sum = 0;
 
     for (int i = 1; i <= n; i++)
     {
         cout << a << endl;
-        sum = a + b;
+        _sum = a + b;
         a = b;
-        b = sum;
+        b = _sum;
     }
 
     return 0;

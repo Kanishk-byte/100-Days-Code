@@ -14,15 +14,15 @@ int main()
     for (int i = 1; i <= 500; i++)
     {
         int x = i;
-        int cubeSum = 0;
+        int _cubeSum = 0;
         while (x > 0)
         {
-            int ld = x % 10;
-            cubeSum += (ld * ld * ld);
+            int _ld = x % 10;
+            _cubeSum += (_ld * _ld * _ld);
             x /= 10;
         }
-        if (i == cubeSum)
-            cout << cubeSum << endl;
+        if (i == _cubeSum)
+            cout << _cubeSum << endl;
     }
 
     return 0;

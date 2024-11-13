@@ -14,7 +14,7 @@ int main()
     int b = 12;
 
     bool t = (a > 20 && b < 15) ? true : false;
-    cout << "Value of t: " << t;
+    cout << "Value of t : " << t;
 
     return 0;
 }

@@ -15,17 +15,17 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int lastdigit = 0;
-    int sum = 0;
+    int _lastdigit = 0;
+    int _sum = 0;
 
     while (n > 0)
     {
-        lastdigit = n % 10;
-        sum += lastdigit;
+        _lastdigit = n % 10;
+        _sum += _lastdigit;
         n /= 10;
     }
 
-    cout<<"Sum of Digits : "<<sum;
+    cout<< "Sum of Digits : "<< _sum;
 
     return 0;
 }

@@ -15,22 +15,22 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int digit = 0;
-    int sum = 0;
+    int _digit = 0;
+    int _sum = 0;
 
     while (n > 0)
     {
-        digit = n % 10;
+        _digit = n % 10;
 
-        if (digit % 2 == 0)
+        if (_digit % 2 == 0)
         {
-            sum = sum + digit;
+            _sum = _sum + _digit;
         }
 
         n /= 10;
     }
 
-    cout << "Sum of even : " << sum;
+    cout << "Sum of even : " << _sum;
 
     return 0;
 }

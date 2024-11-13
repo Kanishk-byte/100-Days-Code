@@ -15,18 +15,18 @@ int main()
     cout << "Enter n : ";
     cin >> n;
 
-    int lastdigit = 0;
-    int reverse = 0;
+    int _lastdigit = 0;
+    int _reverse = 0;
 
     while (n > 0)
     {
-        reverse *= 10;
-        lastdigit = n % 10;
-        reverse += lastdigit;
+        _reverse *= 10;
+        _lastdigit = n % 10;
+        _reverse += _lastdigit;
         n /= 10;
     }
 
-    cout<<"Reverse of Digits : "<<reverse;
+    cout<< "Reverse of Digits : "<< _reverse;
 
     return 0;
 }

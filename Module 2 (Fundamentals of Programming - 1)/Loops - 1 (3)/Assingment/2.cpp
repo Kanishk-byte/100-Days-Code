@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : Print all the odd numbers from 1 to 100.
+// * Ques : Print all the numbers from 1 to 100 that is divisible by 3.
 
 int main()
 {
