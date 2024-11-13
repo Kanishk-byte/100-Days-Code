@@ -26,7 +26,7 @@ int main()
     }
     else if (x == 0 && y != 0)
     {
-        cout << "the point lies on the y - axis";
+        cout << "The point lies on the y - axis";
     }
     else if (x != 0 && y != 0)
     {

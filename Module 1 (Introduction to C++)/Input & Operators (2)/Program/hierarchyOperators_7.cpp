@@ -7,7 +7,7 @@ using namespace std;
 
 // * Hierarchy of Operators :)
 /*
-    * Multiplication & Division have same precedence
+ * Multiplication & Division have same precedence
  * Multiplication & Division have higher precedence then Addition & Subtraction
  * When, we have same precedence operators together we have to move Left to Right
  */

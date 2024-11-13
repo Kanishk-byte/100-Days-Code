@@ -8,7 +8,8 @@ int main ()
     int c;
 
     // c = (a) % (b); 
-    // * Note: % is the modulo operator which gives the error because c is integer and a & b are float.
+    // * Note : % is the modulo operator which gives the error because c is integer and a & b are float.
     cout << c << endl;
 
     return 0;
+}
