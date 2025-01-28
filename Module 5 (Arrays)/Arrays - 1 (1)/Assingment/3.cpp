@@ -25,16 +25,13 @@ int main()
     }
 
     // Minimum
-    int min = INT_MAX;
+    int mini = arr[0];
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] < min)
-        {
-            min = arr[i];
-        }
+            mini = min(mini, arr[i]);
     }
 
-    cout << "Minimum element is : " << min;
+    cout << "Minimum element is : " << mini;
 
     return 0;
 }

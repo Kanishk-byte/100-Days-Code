@@ -45,10 +45,12 @@ int main()
 
     cout << "Maximum element is : " << mx << endl;
 
-    if (sMax == INT_MIN)
-        cout << "No. second largest exist";
+    if (sMax == INT_MIN){
+        cout << "No second largest element exist";
+    } else {
+        cout << "Second Maximum element is : " << sMax << endl;
+    }
 
-    cout << "Second Maximum element is : " << sMax << endl;
 
     return 0;
 }

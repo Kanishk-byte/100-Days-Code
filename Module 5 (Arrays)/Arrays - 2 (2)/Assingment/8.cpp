@@ -17,7 +17,7 @@ int main()
 
     // avg = getAverage(balance[0], 5);
     avg = getAverage(balance, 5);
-    cout << "Average value is: " << avg << endl;
+    cout << "Average value is : " << avg << endl;
 
     // In the call to getAverage, the first element of the array is passed instead of the entire array.
 

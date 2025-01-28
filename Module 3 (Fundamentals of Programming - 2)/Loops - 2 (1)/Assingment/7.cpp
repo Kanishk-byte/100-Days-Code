@@ -19,7 +19,7 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         _fact = _fact * i;
-        cout << _fact << endl;
+        cout << i << " : " << _fact << endl;
     }
 
     return 0;

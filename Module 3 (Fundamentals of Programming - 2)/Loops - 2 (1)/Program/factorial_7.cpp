@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// * Ques : WAP to print the factorial of given number.
+// * Ques : WAP to print the factorial of given number. 
 
 int main()
 {

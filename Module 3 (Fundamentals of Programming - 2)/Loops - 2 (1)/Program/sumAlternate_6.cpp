@@ -7,6 +7,7 @@
 using namespace std;
 
 // * Ques : Print the sum of Alternate Series.
+// * (1 - 2) + (3 - 4) + (5 - 6) + (7 - 8) . . .'n'.
 
 int main()
 {
@@ -21,10 +22,10 @@ int main()
     /*
     for (int i = 0; i <= n; i++)
     {
-        if (i % 2 != 0)
-            sum = sum + i;
-        else
+        if (i % 2 == 0)
             sum = sum - i;
+        else
+            sum = sum + i;
     }
     */
 

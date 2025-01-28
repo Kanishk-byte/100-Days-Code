@@ -49,7 +49,7 @@ int main()
     if (flag == true)
         cout << "Duplicate";
     else
-        cout << "No";
+        cout << "All elements are Unique";
 
     return 0;
 }
