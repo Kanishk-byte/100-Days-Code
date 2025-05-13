@@ -41,7 +41,7 @@ int main()
         break;
 
     default:
-        cout << "Invalid Operator";
+        cout << "Invalid Operator : " << op;
         break;
     }
 

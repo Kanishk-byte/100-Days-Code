@@ -19,8 +19,7 @@ int main()
     /*
     for (int i = 1; i <= 10; i++)
     {
-        int x = (n * i);
-        cout << x << endl;
+        cout << n << " * " << i << " : " << (n * i) << endl;
     }
     */
 

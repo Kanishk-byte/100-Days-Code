@@ -13,71 +13,66 @@ int main()
     cout << "Enter the Amount : ";
     cin >> amount;
 
-    int n500, n200, n100, n50, n20, n10, n5, c2, c1;
-    n500 = n200 = n100 = n50 = n20 = n10 = n5 = c2 = c1 = 0;
+    int n500, n200, n100, n50, n20, n10, c5, c2, c1;
+    n500 = n200 = n100 = n50 = n20 = n10 = c5 = c2 = c1;
 
-    if (amount == 0)
-    {
-        cout << "Please, Enter Valid Amount!!";
-    }
-
-    switch (amount >= 500)
+    switch (amount >= n500)
     {
     case 1:
         n500 = amount / 500;
         amount %= 500;
     }
 
-    switch (amount >= 200)
+    switch (amount >= n200)
     {
     case 1:
         n200 = amount / 200;
         amount %= 200;
     }
 
-    switch (amount >= 100)
+    switch (amount >= n100)
     {
     case 1:
         n100 = amount / 100;
         amount %= 100;
     }
 
-    switch (amount >= 50)
+    switch (amount >= n50)
     {
     case 1:
         n50 = amount / 50;
         amount %= 50;
     }
 
-    switch (amount >= 20)
+    switch (amount >= n20)
     {
     case 1:
         n20 = amount / 20;
         amount %= 20;
     }
 
-    switch (amount >= 10)
+    switch (amount >= n10)
     {
     case 1:
         n10 = amount / 10;
         amount %= 10;
     }
 
-    switch (amount >= 5)
+    switch (amount >= c5)
     {
     case 1:
-        n5 = amount / 5;
+        c5 = amount / 5;
         amount %= 5;
     }
 
-    switch (amount >= 2)
+    switch (amount >= c2)
     {
     case 1:
         c2 = amount / 2;
         amount %= 2;
     }
 
-    switch (amount >= 1)
+    switch (amount >= c1)
     {
     case 1:
         c1 = amount / 1;
@@ -102,8 +97,8 @@ int main()
     if (n10 > 0)
         cout << "Notes of 10 : " << n10 << endl;
 
-    if (n5 > 0)
-        cout << "Notes of 5 : " << n5 << endl;
+    if (c5 > 0)
+        cout << "Coins of 5 : " << c5 << endl;
 
     if (c2 > 0)
         cout << "Coins of 2 : " << c2 << endl;

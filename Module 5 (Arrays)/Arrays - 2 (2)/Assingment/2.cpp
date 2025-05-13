@@ -55,8 +55,31 @@ int main()
     }
 
     cout << "Largest : " << max << endl;
-    cout << "Second Largest : " << sMax <<endl;
-    cout << "Third Largest : " << tMax <<endl;
-
+    cout << "Second Largest : " << sMax << endl;
+    cout << "Third Largest : " << tMax << endl;
+    
     return 0;
 }
+
+    // * In - One Pass
+    // int mx = INT_MIN;
+    // for (int i = 0; i < size; i++)
+    // {
+    //     if (arr[i] > mx)
+    //     {
+    //         tmx = smx;
+    //         smx = mx;
+    //         mx = arr[i];
+    //     }
+
+    //     else if ((arr[i] < mx) && (arr[i] > smx))
+    //     {
+    //         tmx = smx;
+    //         smx = arr[i];
+    //     }
+
+    //     else if ((arr[i] < smx) && (arr[i] > tmx))
+    //     {
+    //         tmx = arr[i];
+    //     }
+    // }

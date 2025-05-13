@@ -14,7 +14,7 @@ int main()
     cout << "Enter the year : ";
     cin >> _year;
 
-    if ((_year % 400 == 0) || ((_year % 4 == 0) && (_year % 100 != 0)))
+    if ((_year % 4 == 0) && ((_year % 100 != 0) || (_year % 400 == 0)))
     {
         cout << "It's a leap year";
     }

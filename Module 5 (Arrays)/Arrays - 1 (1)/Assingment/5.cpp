@@ -27,7 +27,6 @@ int main()
     }
 
     // Missing Element
-
     bool flag = false; // No missing element
     for (int i = 0; i < size; i++)
     {
