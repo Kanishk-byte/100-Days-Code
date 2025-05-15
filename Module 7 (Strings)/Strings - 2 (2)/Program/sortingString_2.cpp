@@ -7,7 +7,7 @@
 using namespace std;
 
 // * Ques : Sorting string using sort(); function.
-// * sort(); -> ASCII value ke order mi sort krta hai.
+// * sort(); -> ASCII value ke order mai sort krta hai.
 // * space -> It is also a character.
 
 int main()
