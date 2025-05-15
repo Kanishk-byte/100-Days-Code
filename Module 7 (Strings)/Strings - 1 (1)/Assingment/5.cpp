@@ -11,12 +11,20 @@ using namespace std;
 int main()
 {
 
-    int num;
-    cout << "Enter the number : ";
-    cin >> num;
+    string str;
+    cout << "Enter string of length < 10 : ";
+    getline(cin, str); 
 
-    string str = to_string(num);
-    cout << "No. of Digits : " << str.length() << endl;
+    // * Convert string to integer
+    int num = 0;
+    for (int i = 0; i < str.length(); i++)  
+    {
+        // Convert character to integer
+        num = num * 10; 
+        num = num + str[i] - 48; // s[i] is a character 
+    }
+
+    cout << "The integer value of the string is: " << num << endl;
 
     return 0;
 }

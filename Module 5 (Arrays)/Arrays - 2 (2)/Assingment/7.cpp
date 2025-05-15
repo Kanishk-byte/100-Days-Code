@@ -1,36 +1,44 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+
+// * Function to check if the array is a palindrome or not
 
 int main() {
 
-    int n;
-    cout << "Enter Array Size : ";
-    cin >> n;
+    vector < int > v;
 
-    int arr[n];
-    cout << "Enter Array Elements : ";
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+    int size = v.size();
+    cout << "Enter the size of the array : ";
+    cin >> size;
+
+    cout << "Enter the elements of the array : ";
+    for (int i = 0; i < size; i++) {
+        int elem;
+        cin >> elem;
+        v.push_back(elem);
     }
 
-    bool isPalindrome = true;
+    // Check if the array is a palindrome or not
+    bool flag = true;
 
+    // Two pointers approach
     int i = 0;
-    int j = n - 1;
+    int j = size - 1;
     while (i < j) {
-        if (arr[i] != arr[j]) {
-            isPalindrome = false;
-            break; // No need to check further if mismatch is found
+        if (v[i] != v[j]) {
+            flag = false;
+            break;
         }
         i++;
         j--;
     }
 
-    if (isPalindrome) {
-        cout << "Array is Palindrome" << endl;
-    } else {
-        cout << "Not a Palindrome" << endl;
-    }
+    // Print the result
+    if (flag == false)
+        cout << "Not a Palindrome";
+    else
+        cout << "Palindrome";
 
     return 0;
 }
